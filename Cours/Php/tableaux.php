@@ -1,10 +1,18 @@
 <?php 
 
-// initialisation du tableau 
+//  du tableau 
 
 $notes = [10,20,10,9,8];
 
 $eleves = ["Sem", "Cham",[10,20]];
+
+
+
+
+
+echo "<pre>";
+ print_r($eleves);
+echo "</pre>";
 
 // Tableau assosiee 
 
@@ -13,6 +21,24 @@ $student  = [
               'prenom'=> 'van',
               'notes' => [10,20,15,14,16]
             ];
+
+
+
+$class = [
+
+
+      [
+          'nom' => 'Hilaire',
+          'prenom' => 'Eric',
+          'notes' => [10,20,15,14,16]
+      ],
+      [
+        'nom' => 'Hilaire',
+        'prenom' => 'Eric',
+        'notes' => [10,20,15,14,16]
+      ]
+
+];
 
 $famille = [      
                 [
