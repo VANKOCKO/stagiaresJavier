@@ -22,10 +22,7 @@ $student  = [
               'notes' => [10,20,15,14,16]
             ];
 
-
-
 $class = [
-
 
       [
           'nom' => 'Hilaire',
