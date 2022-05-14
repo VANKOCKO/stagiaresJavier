@@ -117,7 +117,6 @@ $null = null;
 
                   
            
-          <?php echo "Hello"; ?>
         <script src="" async defer></script>
     </body>
 </html>

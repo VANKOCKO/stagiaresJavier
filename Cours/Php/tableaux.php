@@ -8,8 +8,6 @@ $eleves = ["Sem", "Cham",[10,20]];
 
 
 
-
-
 echo "<pre>";
  print_r($eleves);
 echo "</pre>";
@@ -119,6 +117,8 @@ $student["class"] = "CM-2";
 echo "<pre>";
   // print_r($entreprise);
 echo "</pre>";
+
+
 ?>
 
 <!DOCTYPE html>
