@@ -38,12 +38,13 @@ $stmt = $pdo->query("SELECT * FROM infolist");
         <ul>
                 <?php  foreach ($stmt->fetchAll() as $key => $data) : ?>
 
-                           <li style="display: flex;"> 
-                                   <div><?php echo  $data['nom'] ."</br>";?></div> 
+                           <li style="display: flex; margin: 10px;"> 
+                                   <div ><?php echo  $data['nom'] ."</br>";?></div> 
                                        
                                    <div> <form action="modifier.php" method="post">
                                                   <input hidden value=" <?php echo $data['id']; ?>" name="id" >
-                                                  <button style="background-color:yellow;" type="submit">Modifier</button>
+                                                  <input hidden value=" <?php echo $data['nom']; ?>" name="nom" >
+                                                  <button style="background-color:yellow; margin:2px" type="submit">Modifier</button>
                                          </form>
                                    </div>
                                     <div>
