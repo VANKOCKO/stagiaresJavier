@@ -25,10 +25,10 @@ if(isset($_POST['nom']) && isset($_POST['nom']))
 
 if(isset($_POST['btnmodifier'])){
 
-    $id= $_POST['id'];    
-
-    $sql = "UPDATE infolist SET nom=?, WHERE id='$id'";
-    $pdo->prepare($sql)->execute([$_POST['nomModifier']]);
+    $id= $_POST['id'];  
+    $nommdf = $_POST['nomModifier'];   
+    $sql = "UPDATE infolist SET nom = ?  WHERE id=$id";
+    $pdo->prepare($sql)->execute([$nommdf]);
     //$Message = urlencode("Votre modification a ete prise en compte !");
     header("Location:lecture.php");
     die;

@@ -14,12 +14,16 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-       <form action="ajouter.php" method="post">        
-            <input type="text" name="nom" value=""> <button type="submit">Ajouter</button>
-       </form>        <!--[if lt IE 7]>
+           <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+            <input type="text" id="nom">
+            <button id="ajouterList">Ajouter</button>
+             <ul>
+                 
+             </ul>
+        <script src="../Asset/js/jquery.js"></script>
+        <script src="../Asset/js/ajax.js"></script>    
     </body>
 </html>
